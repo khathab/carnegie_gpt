@@ -52,7 +52,17 @@ def get_user(user_id: int) -> User:
     except Exception as e:
         print(f"Failed to get user error: {e}")
 
-    
+def register_user(user_id: int):
+    """
+    Register user if they aren't registered already
+
+    Args:
+        user_id (int): unique telegram user id
+    """
+    user = get_user(user_id)
+    if user is None:
+        add_user(user_id)
+
 def get_principle(user_id: int) -> int:
     """Retrieves the state of principle
 

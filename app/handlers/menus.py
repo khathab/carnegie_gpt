@@ -38,4 +38,4 @@ async def process_principle_selection(callback_query: types.CallbackQuery):
     # set principle state in database
     set_principle(principle)
     await bot.send_message(f"You have chosen Principle: {principle}. {principles[principle-1]}.\nLets practice!")
-    await send_scenario(principle)
+    await send_scenario()
