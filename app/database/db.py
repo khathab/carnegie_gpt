@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure
-from models import Message, User
+from .models import Message, User
 from typing import List
 import os
 
@@ -89,6 +89,37 @@ def set_principle(user_id: int, principle_state: int):
             "$set": {"principle_state":principle_state}
         }
     )
+
+def get_smile_score(user_id: int):
+    user = get_user(user_id)
+    return user.smile_score
+
+def set_smile_score(user_id: int, smile_score):
+    users_collection.update_one(
+        {"user_id":user_id},
+        {
+            "$set": {"smile_score": smile_score}
+        }
+    )
+
+def set_smile_record(user_id: int, smile_score_new: float) -> bool:
+    """
+    Sets the smile record if its higher than the current record
+
+    Args:
+        user_id (int): unique telegram user id
+        smile_score_new (float): candidate new smile score
+
+    Returns:
+        bool: returns `True` if new smile score is higher than current smile score, `false` otherwise
+    """
+    smile_score_current = get_smile_score(user_id)
+
+    if smile_score_new > smile_score_current:
+        set_smile_score(user_id, smile_score_new)
+        return True
+    else:
+        return False
 
 def get_messages(user_id: int) -> List[Message]:
     """Retrieves user message history

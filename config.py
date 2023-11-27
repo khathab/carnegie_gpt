@@ -3,7 +3,6 @@ import openai
 from elevenlabs import set_api_key
 from dotenv import load_dotenv
 import os
-
 load_dotenv()
 
 # load api keys

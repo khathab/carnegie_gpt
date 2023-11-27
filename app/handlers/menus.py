@@ -3,8 +3,8 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 from aiogram import types
 from config import router, bot
 from aiogram.filters.callback_data import CallbackData
-from database.db import set_principle
-from generation.decision import send_scenario
+from ..database.db import set_principle
+from ..generation.decision import send_scenario
 
 principles = [
 "Principle 1: Don’t criticize, condemn or complain",
