@@ -7,14 +7,14 @@ from ..database.db import set_principle
 from ..generation.decision import send_scenario
 
 principles = [
-"Principle 1: Don’t criticize, condemn or complain",
-"Principle 2: Give honest and sincere appreciation",
-"Principle 3: Arouse in the other person an eager want",
-"Principle 4: Become genuinely interested in other people",
-"Principle 5: Smile",
-"Principle 6: Remember that a person’s name is to that person the sweetest and most important sound in any language",
-"Principle 7: Be a good listener",
-"Principle 8: Talk in terms of the other person’s interests",
+"Don’t criticize, condemn or complain",
+"Give honest and sincere appreciation",
+"Arouse in the other person an eager want",
+"Become genuinely interested in other people",
+"Smile",
+"Say their name",
+"Be a good listener",
+"Talk in terms of the other person’s interests",
 ]
 
 class SelectPrinciple(CallbackData,prefix="principle"):
@@ -26,6 +26,7 @@ async def send_menu(message: types.Message):
     builder = InlineKeyboardBuilder()
     for x, principle in enumerate(principles):
         builder.button(text=f"{x + 1}. {principle}",callback_data=SelectPrinciple(principle_state=x+1).pack())
+    builder.adjust(1,1)
     # menu message
     text = "Pick a principle to practice!"
     # send menu

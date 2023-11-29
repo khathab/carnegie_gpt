@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 @router.message(F.voice)
 async def handle_voice(message: types.Message):
-    logger.info(f"Handling audiof from {message.chat.id}")
+    logger.info(f"Handling audio from {message.chat.id}")
     # download audio for processing
     file_path = await download_media(message, message.voice)
     # transcribe audio
@@ -47,7 +47,7 @@ async def start_handle(message: types.Message):
 
 @router.message(F.text)
 async def handle_text(message: types.Message):
-    logger.info(f"Handling text from {message.chat.id}")
+    logger.info(f"Handling text from {message.chat.id}\nText: {message.text}")
     await decision_engine(message.chat.id, message.text)
 
 
