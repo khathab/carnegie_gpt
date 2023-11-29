@@ -1,6 +1,6 @@
 import uuid
 from elevenlabs import generate, DEFAULT_VOICE
-
+import os
 # character voices
 voice_ids = {
     "Myra": "4vlEMos5x2PbcYnHsT1l",

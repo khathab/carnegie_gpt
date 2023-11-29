@@ -35,8 +35,9 @@ async def send_menu(message: types.Message):
 @router.callback_query(SelectPrinciple.filter())
 async def process_principle_selection(callback_query: types.CallbackQuery):
     principle_callback = SelectPrinciple.unpack(callback_query.data)
+    user_id = callback_query.from_user.id
     principle = principle_callback.principle_state
     # set principle state in database
-    set_principle(principle)
-    await bot.send_message(f"You have chosen Principle: {principle}. {principles[principle-1]}.\nLets practice!")
-    await send_scenario()
+    # set_principle(user_id,principle)
+    await bot.send_message(chat_id=user_id,text=f"You have chosen Principle: {principle}. {principles[principle-1]}.\nLets practice!")
+    await send_scenario(user_id,principle)
