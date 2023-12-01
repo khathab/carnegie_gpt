@@ -43,7 +43,7 @@ async def handle_photo(message: types.Message):
 async def start_handle(message: types.Message):
     logger.info(f"Handling start from {message.chat.id}")
     # register user if they haven't been registered
-    register_user(user_id=message.chat.id)
+    register_user(user_id=message.chat.id, user_name=message.chat.username, full_name=message.chat.full_name)
 
 @router.message(F.text)
 async def handle_text(message: types.Message):

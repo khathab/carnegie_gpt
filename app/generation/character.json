@@ -1,0 +1,521 @@
+[
+    
+    {
+        "name": "Rachel",
+        "voice_id": "21m00Tcm4TlvDq8ikWAM",
+        "gender": "female",
+        "age": "young",
+        "bio": "Rachel is an aspiring graphic designer who loves urban sketching and exploring new cafes. Her creative flair is matched by her ambition to start her own design studio."
+    },
+    {
+        "name": "Drew",
+        "voice_id": "29vD33N1CtxCmqQRPOHJ",
+        "gender": "male",
+        "age": "middle_aged",
+        "bio": "Drew, a seasoned high school teacher, is known for his love of classical literature and dedication to student success. He spends weekends hiking and bird watching."
+    },
+    {
+        "name": "Clyde",
+        "voice_id": "2EiwWnXFnvU5JabPnv8n",
+        "gender": "male",
+        "age": "middle_aged",
+        "bio": "Clyde is a passionate chef specializing in fusion cuisine, blending flavors from around the world. He dreams of opening a restaurant that combines culinary arts with live music."
+    },
+    {
+        "name": "Paul",
+        "voice_id": "5Q0t7uMcjvnagumLfvZi",
+        "gender": "male",
+        "age": "middle_aged",
+        "bio": "Paul, an architect, has a keen eye for sustainable design. He advocates for green spaces in urban areas and enjoys weekend cycling tours in the countryside."
+    },
+    {
+        "name": "Domi",
+        "voice_id": "AZnzlk1XvdvUeBnXmlld",
+        "gender": "female",
+        "age": "young",
+        "bio": "Domi is a tech enthusiast and app developer, known for her innovative solutions to everyday problems. She's a mentor for women in tech and a coffee aficionado."
+    },
+    
+    {
+        "name": "Dave",
+        "voice_id": "CYw3kZ02Hs0563khs1Fj",
+        "gender": "male",
+        "age": "young",
+        "bio": "Dave is a budding musician and songwriter, passionate about indie and folk music. He performs at local venues and enjoys writing music that tells a story."
+    },
+    {
+        "name": "Fin",
+        "voice_id": "D38z5RcWu1voky8WS1ja",
+        "gender": "male",
+        "age": "old",
+        "bio": "Fin, a retired naval officer, spends his days working on his memoir and volunteering at the maritime museum. He loves sharing sea tales and wisdom with younger generations."
+    },
+    {
+        "name": "Bella",
+        "voice_id": "EXAVITQu4vr4xnSDxMaL",
+        "gender": "female",
+        "age": "young",
+        "bio": "Bella is an environmental activist and blogger, passionately advocating for sustainable living. She enjoys organizing community clean-ups and promoting eco-friendly practices."
+    },
+    {
+        "name": "Antoni",
+        "voice_id": "ErXwobaYiN019PkySvjV",
+        "gender": "male",
+        "age": "young",
+        "bio": "Antoni, an aspiring actor, is known for his charismatic stage presence. He's passionate about theater and participates actively in local drama clubs and workshops."
+    },
+    {
+        "name": "Thomas",
+        "voice_id": "GBv7mTt0atIp3Br8iCZE",
+        "gender": "male",
+        "age": "young",
+        "bio": "Thomas is a young entrepreneur who started a successful online marketing business. He's an avid reader of biographies and enjoys mountain biking in his free time."
+    },
+    {
+        "name": "Charlie",
+        "voice_id": "IKne3meq5aSn9XLyUdCD",
+        "gender": "male",
+        "age": "middle_aged",
+        "bio": "Charlie is a skilled carpenter, known for his exquisite handcrafted furniture. He often volunteers his skills for community projects and is a mentor for apprentices."
+    },
+    {
+        "name": "George",
+        "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+        "gender": "male",
+        "age": "middle_aged",
+        "bio": "George, a seasoned journalist, is known for his insightful and thought-provoking articles. He has a passion for uncovering the truth and enjoys photography as a hobby."
+    },
+
+    {
+        "name": "Emily",
+        "voice_id": "LcfcDJNUP1GQjkzn1xUU",
+        "gender": "female",
+        "age": "young",
+        "bio": "Emily is a recent graduate in environmental science, deeply committed to wildlife conservation. She volunteers at animal shelters and loves nature photography."
+    },
+    {
+        "name": "Elli",
+        "voice_id": "MF3mGyEYCl7XYWbV9V6O",
+        "gender": "female",
+        "age": "young",
+        "bio": "Elli, a digital marketing specialist, combines her creativity with tech skills to help brands grow online. She's also a yoga enthusiast and a travel blogger."
+    },
+    {
+        "name": "Callum",
+        "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+        "gender": "male",
+        "age": "middle_aged",
+        "bio": "Callum is a professional landscape photographer who captures stunning natural scenes. When he's not behind the lens, he teaches photography workshops."
+    },
+    {
+        "name": "Patrick",
+        "voice_id": "ODq5zmih8GrVes37Dizd",
+        "gender": "male",
+        "age": "middle_aged",
+        "bio": "Patrick, an experienced civil engineer, is known for his innovative solutions in urban planning. He's a cycling enthusiast and participates in community development projects."
+    },
+    {
+        "name": "Harry",
+        "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+        "gender": "male",
+        "age": "young",
+        "bio": "Harry is a junior software developer with a knack for creating user-friendly applications. He's a tech geek at heart and enjoys playing chess in his spare time."
+    },
+    {
+        "name": "Liam",
+        "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+        "gender": "male",
+        "age": "young",
+        "bio": "Liam, a personal trainer, is passionate about helping people achieve their fitness goals. He's an advocate for mental health awareness and enjoys hiking and rock climbing."
+    },
+    {
+        "name": "Dorothy",
+        "voice_id": "ThT5KcBeYPX3keUQqHPh",
+        "gender": "female",
+        "age": "young",
+        "bio": "Dorothy is a budding pastry chef, known for her inventive and delicious desserts. She dreams of opening her own bakery and blogs about her culinary experiments."
+    },
+    {
+        "name": "Josh",
+        "voice_id": "TxGEqnHWrfWFTfGW9XjX",
+        "gender": "male",
+        "age": "young",
+        "bio": "Josh, a university student majoring in political science, is active in student government and debates. He volunteers for local political campaigns and enjoys playing soccer."
+    },
+    {
+        "name": "Arnold",
+        "voice_id": "VR6AewLTigWG4xSOukaG",
+        "gender": "male",
+        "age": "middle_aged",
+        "bio": "Arnold is a seasoned detective with a keen eye for detail. He's dedicated to solving complex cases and in his downtime, enjoys classic mystery novels and jazz music."
+    },
+    {
+        "name": "Charlotte",
+        "voice_id": "XB0fDUnXU5powFXDhCwa",
+        "gender": "female",
+        "age": "middle_aged",
+        "bio": "Charlotte is an experienced public relations manager, skilled in handling high-pressure situations. She's a wine connoisseur and enjoys organizing charity events."
+    },
+
+    {
+        "name": "Matilda",
+        "voice_id": "XrExE9yKIg1WjnnlVkGX",
+        "gender": "female",
+        "age": "young",
+        "bio": "Matilda is a young, vibrant art teacher who brings creativity into the classroom. She enjoys mural painting and participates in community art projects."
+    },
+    {
+        "name": "Matthew",
+        "voice_id": "Yko7PKHZNXotIFUBG7I9",
+        "gender": "male",
+        "age": "middle_aged",
+        "bio": "Matthew is a skilled veterinarian, known for his compassion towards animals. He volunteers at animal shelters and enjoys birdwatching in his free time."
+    },
+    {
+        "name": "James",
+        "voice_id": "ZQe5CZNOzWyzPSCn5a3c",
+        "gender": "male",
+        "age": "old",
+        "bio": "James, a retired history professor, is a fountain of knowledge about ancient civilizations. He writes historical fiction and loves archaeological travel."
+    },
+    {
+        "name": "Joseph",
+        "voice_id": "Zlb1dXrM653N07WRdFW3",
+        "gender": "male",
+        "age": "middle_aged",
+        "bio": "Joseph, an estate lawyer, is highly respected for his integrity and expertise. He's a chess enthusiast and enjoys wine tasting tours."
+    },
+    {
+        "name": "Jeremy",
+        "voice_id": "bVMeCyTHy58xNoL34h3p",
+        "gender": "male",
+        "age": "young",
+        "bio": "Jeremy is an aspiring filmmaker, passionate about creating documentaries on social issues. He enjoys indie music and participates in film festivals."
+    },
+    {
+        "name": "Michael",
+        "voice_id": "flq6f7yk4E4fJM5XTYuZ",
+        "gender": "male",
+        "age": "old",
+        "bio": "Michael, a retired naval commander, now authors books on maritime history. He's an avid sailor and enjoys model shipbuilding."
+    },
+    {
+        "name": "Ethan",
+        "voice_id": "g5CIjZEefAph4nQFvHAz",
+        "gender": "male",
+        "age": "young",
+        "bio": "Ethan is a young, enthusiastic urban planner, focused on sustainable city development. He's a cycling advocate and enjoys urban photography."
+    },
+    {
+        "name": "Gigi",
+        "voice_id": "jBpfuIE2acCO8z3wKNLl",
+        "gender": "female",
+        "age": "young",
+        "bio": "Gigi is a fashion blogger and up-and-coming stylist, known for her unique and bold fashion sense. She loves traveling to fashion capitals and attending runway shows."
+    },
+    {
+        "name": "Freya",
+        "voice_id": "jsCqWAovK2LkecY7zXl4",
+        "gender": "female",
+        "age": "young",
+        "bio": "Freya is a talented young florist, creating stunning floral arrangements. She's passionate about nature and enjoys hiking and botanical drawing."
+    },
+    {
+        "name": "Grace",
+        "voice_id": "oWAxZDx7w5VEj9dCyTzz",
+        "gender": "female",
+        "age": "young",
+        "bio": "Grace, a recent psychology graduate, is dedicated to understanding human behavior. She volunteers at mental health clinics and practices meditation."
+    },
+
+    {
+        "name": "Daniel",
+        "voice_id": "onwK4e9ZLuTAKqWW03F9",
+        "gender": "male",
+        "age": "middle_aged",
+        "bio": "Daniel is a seasoned pilot who has flown all over the world. He's an amateur astronomer and enjoys sharing his knowledge of the skies with his two children."
+    },
+    {
+        "name": "Lily",
+        "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+        "gender": "female",
+        "age": "middle_aged",
+        "bio": "Lily, a dedicated social worker, has spent years advocating for children's rights. In her spare time, she enjoys gardening and is part of a local book club."
+    },
+    {
+        "name": "Serena",
+        "voice_id": "pMsXgVXv3BLzUgSXRplE",
+        "gender": "female",
+        "age": "middle_aged",
+        "bio": "Serena is an accomplished jazz singer known for her soulful voice. She teaches music to young aspiring artists and loves vintage fashion."
+    },
+    {
+        "name": "Adam",
+        "voice_id": "pNInz6obpgDQGcFmaJgB",
+        "gender": "male",
+        "age": "middle_aged",
+        "bio": "Adam is an innovative software engineer with a passion for developing educational apps. He's an avid rock climber and enjoys weekend hikes with his family."
+    },
+    {
+        "name": "Nicole",
+        "voice_id": "piTKgcLEGmPE4e6mEKli",
+        "gender": "female",
+        "age": "young",
+        "bio": "Nicole, a recent art school graduate, is making a name for herself with her vibrant and expressive paintings. She's also passionate about environmental activism."
+    },
+    {
+        "name": "Bill",
+        "voice_id": "pqHfZKP75CvOlQylNhV4",
+        "gender": "male",
+        "age": "middle_aged",
+        "bio": "Bill is an experienced chef who specializes in Mediterranean cuisine. When he's not in the kitchen, he's either fishing or coaching his son's soccer team."
+    },
+    {
+        "name": "Jessie",
+        "voice_id": "t0jbNlBVZ17f02VDIeMI",
+        "gender": "male",
+        "age": "old",
+        "bio": "Jessie, now retired, spent his life working as a geologist. He has an impressive collection of rocks and minerals and often leads educational walks in the mountains."
+    },
+    {
+        "name": "Ryan",
+        "voice_id": "wViXBPUzp2ZZixB1xQuM",
+        "gender": "male",
+        "age": "middle_aged",
+        "bio": "Ryan is a professional landscape architect who designs green spaces in urban areas. He's an avid birdwatcher and enjoys painting landscapes."
+    },
+    {
+        "name": "Sam",
+        "voice_id": "yoZ06aMxZJJ28mfd3POQ",
+        "gender": "male",
+        "age": "young",
+        "bio": "Sam is an emerging filmmaker, known for his short films that tackle social issues. He enjoys surfing and often volunteers at animal rescue centers."
+    },
+    {
+        "name": "Glinda",
+        "voice_id": "z9fAnlkpzviPz146aGWa",
+        "gender": "female",
+        "age": "middle_aged",
+        "bio": "Glinda is a professional event planner, specializing in extravagant weddings. She's also a talented pianist and loves hosting dinner parties for her friends."
+    },
+    {
+        "name": "Giovanni",
+        "voice_id": "zcAOhNBS3c14rBihAFp1",
+        "gender": "male",
+        "age": "young",
+        "bio": "Giovanni, a young and ambitious fashion designer, is quickly making a name for himself in the industry. He draws inspiration from his Italian heritage and loves to travel."
+    },
+    
+    {
+        "name": "Lizze",
+        "voice_id": "zrHiDhphv9ZnVXBqCLjz",
+        "gender": "female",
+        "age": "young",
+        "bio": "Lizze is a wildlife biologist who spends her days tracking and studying mountain lions. She's an avid nature photographer and blogs about her fieldwork experiences."
+    },
+    {
+        "name": "Hailey",
+        "voice_id": "3LN6O8j7KUux7YqCsf0s",
+        "gender": "female",
+        "age": "young",
+        "bio": "Hailey is a digital nomad and freelance graphic designer. She loves exploring new cultures, and her travel blog is followed by thousands of adventure enthusiasts."
+    },
+    {
+        "name": "Rayan",
+        "voice_id": "8dY6cCNtdmXia46TYaV2",
+        "gender": "female",
+        "age": "old",
+        "bio": "Rayan, a retired librarian, has a profound love for classic literature and poetry. She now spends her time volunteering for literacy programs and enjoys gardening."
+    },
+    {
+        "name": "Brandon",
+        "voice_id": "8g3yRGGwQdZMjSh79Uz4",
+        "gender": "male",
+        "age": "middle_aged",
+        "bio": "Brandon is a skilled craftsman specializing in handmade pottery. His workshop is a local attraction, and he conducts weekend pottery classes for the community."
+    },
+    {
+        "name": "Alice",
+        "voice_id": "CoZf1s84Vsecb9xR8WxN",
+        "gender": "female",
+        "age": "young",
+        "bio": "Alice is an emerging indie pop singer-songwriter known for her soulful lyrics and unique voice. She enjoys urban explorations and is a vintage vinyl collector."
+    },
+    {
+        "name": "Audrey",
+        "voice_id": "DKD5mLcjEPPdNNYvk0St",
+        "gender": "female",
+        "age": "young",
+        "bio": "Audrey is a young entrepreneur who started her own eco-friendly clothing line. She's passionate about sustainable fashion and often speaks at environmental conferences."
+    },
+    {
+        "name": "Bria",
+        "voice_id": "F9h8mxs1RtuQ985zM6bB",
+        "gender": "female",
+        "age": "young",
+        "bio": "Bria is a professional ballet dancer, captivating audiences with her performances. She volunteers her time teaching dance to underprivileged children."
+    },
+    {
+        "name": "Alex",
+        "voice_id": "Kwe0hHDp9ItL1C5ncbSk",
+        "gender": "male",
+        "age": "young",
+        "bio": "Alex is a passionate marine biologist working on coral reef restoration. He's a scuba diving instructor and enjoys underwater photography."
+    },
+    {
+        "name": "Tony",
+        "voice_id": "L815I3iBG2ms7gWfsePu",
+        "gender": "male",
+        "age": "middle_aged",
+        "bio": "Tony, an experienced real estate agent, is known for his extensive knowledge of the housing market. He's a model train enthusiast and enjoys woodworking."
+    },
+    {
+        "name": "Kate",
+        "voice_id": "NZpfeWklXUse3ELJ6xMG",
+        "gender": "female",
+        "age": "young",
+        "bio": "Kate is a talented young pastry chef who creates innovative and delicious desserts. She enjoys hosting baking workshops and has a growing YouTube channel."
+    },
+    {
+        "name": "Joe",
+        "voice_id": "PBQ65OXXZvgKTA6ZZ2vk",
+        "gender": "male",
+        "age": "young",
+        "bio": "Joe is a young man with a voice that can charm anyone. He has a natural talent for storytelling and loves captivating audiences with his smooth delivery."
+    },
+    {
+        "name": "Jessica",
+        "voice_id": "PUTbgKozbWQ3MXOcx0lh",
+        "gender": "female",
+        "age": "young",
+        "bio": "Jessica is a talented young woman with a voice that exudes warmth and kindness. She has a knack for bringing characters to life and creating memorable experiences."
+    },
+    {
+        "name": "Riley",
+        "voice_id": "Q9xFZkcFe0mkYObxXLOl",
+        "gender": "male",
+        "age": "middle_aged",
+        "bio": "Riley is a middle-aged man with a voice that commands attention. Whether it's narrating commercials or voicing video game characters, he always leaves a lasting impression."
+    },
+    {
+        "name": "Dylan",
+        "voice_id": "SoTg9vj9BbhbRkYFeeIw",
+        "gender": "male",
+        "age": "young",
+        "bio": "Dylan is a young man with a voice filled with energy and enthusiasm. He brings a youthful vibe to every project and knows how to connect with listeners."
+    },
+    {
+        "name": "Conny",
+        "voice_id": "VLHMajNv3MQvLt5zFnvH",
+        "gender": "female",
+        "age": "old",
+        "bio": "Conny is a seasoned voice actress with a wealth of experience. Her mature voice adds a touch of wisdom and elegance to any project she works on."
+    },
+    {
+        "name": "Maddie",
+        "voice_id": "VkyPli7eHVKPjIJe0vS2",
+        "gender": "female",
+        "age": "young",
+        "bio": "Maddie is a young and versatile voice artist who can adapt to any role. Her ability to switch between different characters and accents makes her a valuable asset."
+    },
+    {
+        "name": "Hannah",
+        "voice_id": "YIflZAjx8s0IRDLopSxD",
+        "gender": "female",
+        "age": "middle_aged",
+        "bio": "Hannah is a middle-aged woman with a voice that is both soothing and captivating. She has a natural talent for audiobook narration and loves bringing stories to life."
+    },
+    {
+        "name": "Maya",
+        "voice_id": "dCDMunZBgfFI8JsBxguA",
+        "gender": "female",
+        "age": "young",
+        "bio": "Maya is a young and talented voice actress with a voice that is full of energy and positivity. She brings a fresh and vibrant approach to every project she works on."
+    },
+    {
+        "name": "Nathaniel",
+        "voice_id": "f4x5vvkQBUifbEY91vtN",
+        "gender": "male",
+        "age": "old",
+        "bio": "Nathaniel is a seasoned voice actor with a voice that is rich in depth and character. His experience shines through in every performance, leaving a lasting impression on listeners."
+    },
+    {
+        "name": "Richard",
+        "voice_id": "fJE3lSefh7YI494JMYYz",
+        "gender": "male",
+        "age": "middle_aged",
+        "bio": "Richard is a versatile voice artist with a voice that can adapt to any role. Whether it's voicing commercials or narrating documentaries, he always delivers a captivating performance."
+    },
+    {
+        "name": "Myriam",
+        "voice_id": "h9SBiVdErjY1ldfGDzLV",
+        "gender": "female",
+        "age": "young",
+        "bio": "Myriam is a young and talented voice actress with a voice that is both soothing and captivating. Her ability to bring characters to life and evoke emotions is truly remarkable."
+    },
+    {
+        "name": "Mark",
+        "voice_id": "kDeIlneKsyEjD4gK3U0b",
+        "gender": "male",
+        "age": "young",
+        "bio": "Mark is a young and energetic voice artist with a voice that commands attention. His passion for his craft shines through in every performance, leaving a lasting impact on listeners."
+    },
+    {
+        "name": "Jimmy",
+        "voice_id": "kGbsQLAWzUj4jK4NjsOh",
+        "gender": "male",
+        "age": "old",
+        "bio": "Jimmy is an experienced voice actor with a voice that is filled with warmth and character. His vast range of voices and accents makes him a versatile performer."
+    },
+    {
+        "name": "Burt",
+        "voice_id": "kdVjFjOXaqExaDvXZECX",
+        "gender": "male",
+        "age": "young",
+        "bio": "Burt is a young voice artist with a voice that is both energetic and versatile. Whether it's voicing animated characters or narrating commercials, he always brings a unique touch to every project."
+    },
+    {
+        "name": "Hillary",
+        "voice_id": "m2IF54QXsNmaHYiCDJyU",
+        "gender": "female",
+        "age": "young",
+        "bio": "Hillary is a talented young voice actress with a voice that is both sweet and powerful. Her ability to breathe life into characters and connect with audiences is truly remarkable."
+    },
+    {
+        "name": "Natasiae",
+        "voice_id": "m9Jbvx6hGy9NNimdiSUu",
+        "gender": "female",
+        "age": "middle_aged",
+        "bio": "Natasiae is a middle-aged voice artist with a voice that is both captivating and soulful. Her ability to express emotions and tell stories through her voice is truly mesmerizing."
+    },
+    {
+        "name": "Ryan",
+        "voice_id": "rU18Fk3uSDhmg5Xh41o4",
+        "gender": "male",
+        "age": "middle_aged",
+        "bio": "Ryan is a seasoned voice actor with a voice that is full of depth and emotion. His ability to evoke strong emotions and create immersive experiences is truly remarkable."
+    },
+    {
+        "name": "Drew",
+        "voice_id": "t9pa8vZ7tCoTLCLirl6c",
+        "gender": "male",
+        "age": "middle_aged",
+        "bio": "Drew is a versatile voice artist with a voice that can adapt to any role. From voicing animated characters to narrating documentaries, he always brings a unique touch to every project."
+    },
+    {
+        "name": "Tamika",
+        "voice_id": "v8cUMxzpSAFldihqu1tB",
+        "gender": "female",
+        "age": "old",
+        "bio": "Tamika is a seasoned voice actress with a voice that is both warm and wise. Her ability to bring characters to life and connect with audiences is truly remarkable."
+    },
+    {
+        "name": "Tiffany",
+        "voice_id": "x9leqCOAXOcmC5jtkq65",
+        "gender": "female",
+        "age": "middle_aged",
+        "bio": "Tiffany is a versatile voice artist with a voice that is both captivating and versatile. Whether it's voicing commercials or narrating audiobooks, she always delivers a captivating performance."
+    }
+
+
+]

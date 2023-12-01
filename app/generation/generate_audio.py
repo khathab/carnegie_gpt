@@ -1,49 +1,27 @@
 import uuid
-from elevenlabs import generate, DEFAULT_VOICE
-import os
-# character voices
-voice_ids = {
-    "Myra": "4vlEMos5x2PbcYnHsT1l",
-    "Alice": "CoZf1s84Vsecb9xR8WxN",
-    "Bria": "F9h8mxs1RtuQ985zM6bB",
-    "Tony": "L815I3iBG2ms7gWfsePu",
-    "Kate": "NZpfeWklXUse3ELJ6xMG",
-    "Jessica": "PUTbgKozbWQ3MXOcx0lh",
-    "John": "Q9xFZkcFe0mkYObxXLOl",
-    "Mark": "kDeIlneKsyEjD4gK3U0b",
-    "Drew": "t9pa8vZ7tCoTLCLirl6c",
-    "Narrator": "kGbsQLAWzUj4jK4NjsOh"
-}
+from elevenlabs import generate, voices
+import json
 
 def generate_audio(text: str, voice_id: str):
     audio_bytes = generate(
         text=text,
-        voice=voice_id
+        voice=voice_id,
+        model="eleven_turbo_v2"
     )
     return audio_bytes
 
-def generate_single_audio(text: str, character_name: str):
-    voice_id = voice_ids[character_name]
+def generate_single_audio(text: str, voice_id):
 
-    # if character not found, use default
-    if voice_id is None:
-        voice_id = DEFAULT_VOICE
-
-    print("vOICE iD:", voice_id)
     audio_bytes = generate_audio(text, voice_id)
     file_path = f"audio_{uuid.uuid4()}.mp3"
     with open(file_path, "wb") as audio_file:
         audio_file.write(audio_bytes)
     return file_path
 
-def generate_multiple_audio(text: list, character_names: list):
+def generate_multiple_audio(text: list, voice_ids: list):
     audio_data = []
     # adds each phrase to audio data
-    for phrase, character_name in zip(text, character_names):
-        voice_id = voice_ids[character_name]
-        # if character not found, use default
-        if voice_id is None:
-            voice_id = DEFAULT_VOICE
+    for phrase, voice_id in zip(text, voice_ids):
         audio_bytes = generate_audio(phrase, voice_id)
         audio_data.append(audio_bytes)
 
@@ -54,3 +32,18 @@ def generate_multiple_audio(text: list, character_names: list):
         for audio_bytes in audio_data:
             audio_file.write(audio_bytes)
     return file_path
+
+def create_character_json():
+    voices_list = voices()
+    characters = []
+    for voice in voices_list:
+        character = {
+            "name": voice.name,
+            "voice_id": voice.voice_id,
+            "gender": voice.labels["gender"],
+            "age": voice.labels["age"]
+        }
+        characters.append(character)
+
+    with open("./app/generation/character.json","w") as file:
+        json.dump(characters, file,indent=4)

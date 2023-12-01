@@ -1,5 +1,4 @@
 from aiogram import types
-from config import bot
 import os
 
 async def download_media(message: types.Message, media) -> str:

@@ -1,4 +1,5 @@
 from aiogram import Bot, Dispatcher, Router
+from aiogram.utils.chat_action import ChatActionMiddleware
 import openai
 from elevenlabs import set_api_key
 from dotenv import load_dotenv
