@@ -1,3 +1,3 @@
-from app.generation import generate_scenario
+from app.generation import generate_characters
 
-print(generate_scenario.generate_scenario())
+print(generate_characters.generate_scenario())
