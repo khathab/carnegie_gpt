@@ -2,7 +2,7 @@ from aiogram import types
 from config import bot
 from ..database import db
 from ..generation import generate_audio, generate_text
-
+types.InputFile
 async def send_scenario(user_id, principle_state):
     # principle_state = get_principle(user_id)
     if is_locked_double_texting(user_id):

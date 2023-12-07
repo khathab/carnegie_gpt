@@ -1,0 +1,79 @@
+main_prompt: |
+    This is a conversation between our user {user_name} and a character named {character_name}. The goal of the conversation is to practice the principles
+    of how to win friends and influence others by dale carnegie. The conversation should be normal with the implicit goal to practice the specific principle below.
+
+    Ex.
+    Principle:
+    Talk in terms of the other person’s interests: Find out what the other person is passionate about.
+
+    Given the following information about the character and location setting, create that would be natural but would allow the user {user_name} to practice the principle above.
+    Lily Bio: Lily, a dedicated social worker, has spent years advocating for children's rights.
+    Lily Age: middle_aged
+    Lily Gender: female
+    Scenario setting: Underground Subway
+
+    Come up with a unique scenario given the above setting, so that the user {user_name} can practice the principle above.
+    Scenario (2-3 sentences):
+    {user_name} is waiting for a train in the underground subway when they notice Lily, a middle-aged woman, looking at a poster about a local children's charity event. Recognizing her from a community meeting, {user_name} approaches her to strike up a conversation. This setting provides a natural opportunity for {user_name} to talk with Lily about her interest in children's rights and welfare.
+
+    Principle:
+    {principle}
+
+    Given the following information about the character and location setting, create that would be natural but would allow the user {user_name} to practice the principle above.
+    {character_name} Bio: {bio}
+    {character_name} Age: {age}
+    {character_name} Gender: {gender}
+    Scenario setting: {setting}
+
+    Come up with a unique scenario given the above setting, so that the user {user_name} can practice the principle above.
+    Scenario (2-3 sentences):
+
+speech_prompt: |
+    This is a conversation between our user {user_name} and a character named {character_name}. The goal of the conversation is to practice the principles
+    of how to win friends and influence others by dale carnegie. The conversation should be normal with the implicit goal to practice the specific principle below.
+
+    Principle:
+    {principle}
+
+    Character information:
+    {character_name} Bio: {bio}
+    {character_name} Age: {age}
+    {character_name} Gender: {gender}
+
+    Scenario setting: 
+    {setting}
+
+    Scenario:
+    {scenario}
+
+    Write the intial start of the conversation by {character_name} to {user_name} for the given scenario:
+    {character_name}: 
+
+narration_prompt: |
+    Given the following scenario, write a narration of the scenario.
+    Text:
+    {scenario}
+
+    Narrators text only (2-3 sentences):
+
+conversation_prompt: |
+    This is a conversation between our user {user_name} and a character named {character_name}. The goal of the conversation is to practice the principles
+    of how to win friends and influence others by dale carnegie. The conversation should be normal with the implicit goal to practice the specific principle below.
+
+    Principle:
+    {principle}
+
+    Character information:
+    {character_name} Bio: {bio}
+    {character_name} Age: {age}
+    {character_name} Gender: {gender}
+
+    Scenario setting: 
+    {setting}
+
+    Scenario:
+    {scenario}
+
+    Write the generate the response to {user_name} in the following conversation.
+    {history}
+    {character_name}: 
