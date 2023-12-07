@@ -4,7 +4,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 from aiogram import types
 from config import router, bot
 from aiogram.filters.callback_data import CallbackData
-from ..generation.decision import send_scenario
+from app.engine.decision import send_scenario
 
 principles = [
     "🚫 Avoid Criticism",

@@ -4,7 +4,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.schema import StrOutputParser
 from langchain.prompts import ChatPromptTemplate
 from app.database.database import Database
-from app.generation.generate_characters import SceneSelector
+from app.generation.scene_generation import SceneSelector
 
 class StoryGenerator:
     def __init__(self, prompts_file, principles_file, model_name="gpt-3.5-turbo", max_tokens=100):

@@ -2,7 +2,7 @@ import requests
 import os
 from dotenv import load_dotenv
 
-class HuggingFaceAPI:
+class ImageClassifier:
 
     def __init__(self) -> None:
         load_dotenv()
