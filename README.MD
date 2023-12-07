@@ -2,7 +2,7 @@
 CarnegieBot is a unique Telegram bot designed to help users practice and internalize the principles outlined in Dale Carnegie's influential book, "How to Win Friends and Influence People." This bot offers a creative and engaging way to apply these principles in varied, simulated social scenarios.
 
 <a href="https://youtu.be/C86Hq0Tt-jc" title="Watch our Demo Video">
-    <img src="static/image.png" alt="Demo Video" width="500" height="300"/>
+    <img src="static/image.png" alt="Demo Video" width="290" height="640"/>
 </a>
 
 # Features
